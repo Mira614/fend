@@ -55,3 +55,20 @@
 // Set sections as active
 
 
+
+var sections = document.querySelectorAll("section");
+var myUl = document.getElementById("navbar_list")
+
+}    for (let i=0; i < sections.length; i++){
+  alert(sections[i].getAttribute("data.nav")); 
+}
+//creat an element(li)
+var newLi  = document.creatElement('li');
+alert(newLi.textContent = "data.nav";);
+
+sections[4].appendChild(newLi);
+
+sections.addEventListener('click', function () {
+  console.log('The heading was clicked!');
+});
+
