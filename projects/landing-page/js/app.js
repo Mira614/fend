@@ -55,3 +55,17 @@
 // Set sections as active
 
 
+const sections = document.querySelectorAll("section");
+const myUl = document.getElementById("navbar_list")
+
+
+for (let i=0; i < sections.length; i++){
+    alert(sections[i].getAttribute("data.nav")); 
+}
+
+const newLi  = document.creatElement('li');
+alert(newLi.textContent = "data.nav";);
+
+sections[4].appendChild(newLi);
+
+
