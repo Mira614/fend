@@ -54,4 +54,17 @@
 
 // Set sections as active
 
-
+Const sections = document.querySelectorAll('section')
+Const my Ul = document.getElementById("navbar__list")
+}  for (let i=0; I < sections.length; i++){
+let newLi = document.creatElement("li")
+let secName =
+sections[i].getAttribute('data-nav);
+}
+let secLink = sections[i].getAttribute('id');
+listUl.innerHTML = '< a class =
+'menu__link'href = '#${secLink}'>$
+{secName} </a>';
+myUl.appendChild(listUl);
+}
+document.addEventListner('scroll, function ())
